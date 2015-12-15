@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1599621C20037700D36289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1599611C20037700D36289 /* main.m */; };
+		CC1599651C20037700D36289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1599641C20037700D36289 /* AppDelegate.m */; };
+		CC1599681C20037700D36289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1599671C20037700D36289 /* ViewController.m */; };
+		CC15996B1C20037700D36289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1599691C20037700D36289 /* Main.storyboard */; };
+		CC15996D1C20037700D36289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC15996C1C20037700D36289 /* Assets.xcassets */; };
+		CC1599701C20037700D36289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC15996E1C20037700D36289 /* LaunchScreen.storyboard */; };
+		CC15997B1C20037700D36289 /* _1_SyncREquestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15997A1C20037700D36289 /* _1_SyncREquestTests.m */; };
+		CC1599861C20037700D36289 /* _1_SyncREquestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1599851C20037700D36289 /* _1_SyncREquestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1599771C20037700D36289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1599551C20037700D36289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC15995C1C20037700D36289;
+			remoteInfo = "01-SyncREquest";
+		};
+		CC1599821C20037700D36289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1599551C20037700D36289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC15995C1C20037700D36289;
+			remoteInfo = "01-SyncREquest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC15995D1C20037700D36289 /* (练习02)-SyncREquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(练习02)-SyncREquest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1599611C20037700D36289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1599631C20037700D36289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC1599641C20037700D36289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC1599661C20037700D36289 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC1599671C20037700D36289 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC15996A1C20037700D36289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC15996C1C20037700D36289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC15996F1C20037700D36289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1599711C20037700D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1599761C20037700D36289 /* (练习02)-SyncREquest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "(练习02)-SyncREquest.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC15997A1C20037700D36289 /* _1_SyncREquestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_SyncREquestTests.m; sourceTree = "<group>"; };
+		CC15997C1C20037700D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1599811C20037700D36289 /* (练习02)-SyncREquest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "(练习02)-SyncREquest.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1599851C20037700D36289 /* _1_SyncREquestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_SyncREquestUITests.m; sourceTree = "<group>"; };
+		CC1599871C20037700D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC15995A1C20037700D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1599731C20037700D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15997E1C20037700D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1599541C20037700D36289 = {
+			isa = PBXGroup;
+			children = (
+				CC15995F1C20037700D36289 /* 01-SyncREquest */,
+				CC1599791C20037700D36289 /* 01-SyncREquestTests */,
+				CC1599841C20037700D36289 /* 01-SyncREquestUITests */,
+				CC15995E1C20037700D36289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC15995E1C20037700D36289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC15995D1C20037700D36289 /* (练习02)-SyncREquest.app */,
+				CC1599761C20037700D36289 /* (练习02)-SyncREquest.xctest */,
+				CC1599811C20037700D36289 /* (练习02)-SyncREquest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC15995F1C20037700D36289 /* 01-SyncREquest */ = {
+			isa = PBXGroup;
+			children = (
+				CC1599631C20037700D36289 /* AppDelegate.h */,
+				CC1599641C20037700D36289 /* AppDelegate.m */,
+				CC1599661C20037700D36289 /* ViewController.h */,
+				CC1599671C20037700D36289 /* ViewController.m */,
+				CC1599691C20037700D36289 /* Main.storyboard */,
+				CC15996C1C20037700D36289 /* Assets.xcassets */,
+				CC15996E1C20037700D36289 /* LaunchScreen.storyboard */,
+				CC1599711C20037700D36289 /* Info.plist */,
+				CC1599601C20037700D36289 /* Supporting Files */,
+			);
+			path = "01-SyncREquest";
+			sourceTree = "<group>";
+		};
+		CC1599601C20037700D36289 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1599611C20037700D36289 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1599791C20037700D36289 /* 01-SyncREquestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC15997A1C20037700D36289 /* _1_SyncREquestTests.m */,
+				CC15997C1C20037700D36289 /* Info.plist */,
+			);
+			path = "01-SyncREquestTests";
+			sourceTree = "<group>";
+		};
+		CC1599841C20037700D36289 /* 01-SyncREquestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1599851C20037700D36289 /* _1_SyncREquestUITests.m */,
+				CC1599871C20037700D36289 /* Info.plist */,
+			);
+			path = "01-SyncREquestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC15995C1C20037700D36289 /* (练习02)-SyncREquest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC15998A1C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquest" */;
+			buildPhases = (
+				CC1599591C20037700D36289 /* Sources */,
+				CC15995A1C20037700D36289 /* Frameworks */,
+				CC15995B1C20037700D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "(练习02)-SyncREquest";
+			productName = "01-SyncREquest";
+			productReference = CC15995D1C20037700D36289 /* (练习02)-SyncREquest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1599751C20037700D36289 /* (练习02)-SyncREquestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC15998D1C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquestTests" */;
+			buildPhases = (
+				CC1599721C20037700D36289 /* Sources */,
+				CC1599731C20037700D36289 /* Frameworks */,
+				CC1599741C20037700D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1599781C20037700D36289 /* PBXTargetDependency */,
+			);
+			name = "(练习02)-SyncREquestTests";
+			productName = "01-SyncREquestTests";
+			productReference = CC1599761C20037700D36289 /* (练习02)-SyncREquest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC1599801C20037700D36289 /* (练习02)-SyncREquestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1599901C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquestUITests" */;
+			buildPhases = (
+				CC15997D1C20037700D36289 /* Sources */,
+				CC15997E1C20037700D36289 /* Frameworks */,
+				CC15997F1C20037700D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1599831C20037700D36289 /* PBXTargetDependency */,
+			);
+			name = "(练习02)-SyncREquestUITests";
+			productName = "01-SyncREquestUITests";
+			productReference = CC1599811C20037700D36289 /* (练习02)-SyncREquest.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1599551C20037700D36289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC15995C1C20037700D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CC1599751C20037700D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC15995C1C20037700D36289;
+					};
+					CC1599801C20037700D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC15995C1C20037700D36289;
+					};
+				};
+			};
+			buildConfigurationList = CC1599581C20037700D36289 /* Build configuration list for PBXProject "(练习02)-SyncREquest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1599541C20037700D36289;
+			productRefGroup = CC15995E1C20037700D36289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC15995C1C20037700D36289 /* (练习02)-SyncREquest */,
+				CC1599751C20037700D36289 /* (练习02)-SyncREquestTests */,
+				CC1599801C20037700D36289 /* (练习02)-SyncREquestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC15995B1C20037700D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1599701C20037700D36289 /* LaunchScreen.storyboard in Resources */,
+				CC15996D1C20037700D36289 /* Assets.xcassets in Resources */,
+				CC15996B1C20037700D36289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1599741C20037700D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15997F1C20037700D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1599591C20037700D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1599681C20037700D36289 /* ViewController.m in Sources */,
+				CC1599651C20037700D36289 /* AppDelegate.m in Sources */,
+				CC1599621C20037700D36289 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1599721C20037700D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15997B1C20037700D36289 /* _1_SyncREquestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15997D1C20037700D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1599861C20037700D36289 /* _1_SyncREquestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1599781C20037700D36289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC15995C1C20037700D36289 /* (练习02)-SyncREquest */;
+			targetProxy = CC1599771C20037700D36289 /* PBXContainerItemProxy */;
+		};
+		CC1599831C20037700D36289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC15995C1C20037700D36289 /* (练习02)-SyncREquest */;
+			targetProxy = CC1599821C20037700D36289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC1599691C20037700D36289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC15996A1C20037700D36289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC15996E1C20037700D36289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC15996F1C20037700D36289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1599881C20037700D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC1599891C20037700D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC15998B1C20037700D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-SyncREquest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquest";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+			};
+			name = Debug;
+		};
+		CC15998C1C20037700D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-SyncREquest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquest";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+			};
+			name = Release;
+		};
+		CC15998E1C20037700D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-SyncREquestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquestTests";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/(练习02)-SyncREquest.app/(练习02)-SyncREquest";
+			};
+			name = Debug;
+		};
+		CC15998F1C20037700D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-SyncREquestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquestTests";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/(练习02)-SyncREquest.app/(练习02)-SyncREquest";
+			};
+			name = Release;
+		};
+		CC1599911C20037700D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-SyncREquestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquestUITests";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+				TEST_TARGET_NAME = "01-SyncREquest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC1599921C20037700D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-SyncREquestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-SyncREquestUITests";
+				PRODUCT_NAME = "(练习02)-SyncREquest";
+				TEST_TARGET_NAME = "01-SyncREquest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1599581C20037700D36289 /* Build configuration list for PBXProject "(练习02)-SyncREquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1599881C20037700D36289 /* Debug */,
+				CC1599891C20037700D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC15998A1C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15998B1C20037700D36289 /* Debug */,
+				CC15998C1C20037700D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC15998D1C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15998E1C20037700D36289 /* Debug */,
+				CC15998F1C20037700D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1599901C20037700D36289 /* Build configuration list for PBXNativeTarget "(练习02)-SyncREquestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1599911C20037700D36289 /* Debug */,
+				CC1599921C20037700D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1599551C20037700D36289 /* Project object */;
+}

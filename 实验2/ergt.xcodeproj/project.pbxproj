@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC159A1F1C204F6300D36289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159A1E1C204F6300D36289 /* main.m */; };
+		CC159A221C204F6300D36289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159A211C204F6300D36289 /* AppDelegate.m */; };
+		CC159A251C204F6300D36289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159A241C204F6300D36289 /* ViewController.m */; };
+		CC159A281C204F6300D36289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC159A261C204F6300D36289 /* Main.storyboard */; };
+		CC159A2A1C204F6300D36289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC159A291C204F6300D36289 /* Assets.xcassets */; };
+		CC159A2D1C204F6300D36289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC159A2B1C204F6300D36289 /* LaunchScreen.storyboard */; };
+		CC159A381C204F6300D36289 /* ergtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159A371C204F6300D36289 /* ergtTests.m */; };
+		CC159A431C204F6300D36289 /* ergtUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159A421C204F6300D36289 /* ergtUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC159A341C204F6300D36289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC159A121C204F6300D36289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC159A191C204F6300D36289;
+			remoteInfo = ergt;
+		};
+		CC159A3F1C204F6300D36289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC159A121C204F6300D36289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC159A191C204F6300D36289;
+			remoteInfo = ergt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC159A1A1C204F6300D36289 /* ergt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ergt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159A1E1C204F6300D36289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC159A201C204F6300D36289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC159A211C204F6300D36289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC159A231C204F6300D36289 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC159A241C204F6300D36289 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC159A271C204F6300D36289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC159A291C204F6300D36289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC159A2C1C204F6300D36289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC159A2E1C204F6300D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC159A331C204F6300D36289 /* ergtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ergtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159A371C204F6300D36289 /* ergtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ergtTests.m; sourceTree = "<group>"; };
+		CC159A391C204F6300D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC159A3E1C204F6300D36289 /* ergtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ergtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159A421C204F6300D36289 /* ergtUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ergtUITests.m; sourceTree = "<group>"; };
+		CC159A441C204F6300D36289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC159A171C204F6300D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A301C204F6300D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A3B1C204F6300D36289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC159A111C204F6300D36289 = {
+			isa = PBXGroup;
+			children = (
+				CC159A1C1C204F6300D36289 /* ergt */,
+				CC159A361C204F6300D36289 /* ergtTests */,
+				CC159A411C204F6300D36289 /* ergtUITests */,
+				CC159A1B1C204F6300D36289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC159A1B1C204F6300D36289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC159A1A1C204F6300D36289 /* ergt.app */,
+				CC159A331C204F6300D36289 /* ergtTests.xctest */,
+				CC159A3E1C204F6300D36289 /* ergtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC159A1C1C204F6300D36289 /* ergt */ = {
+			isa = PBXGroup;
+			children = (
+				CC159A201C204F6300D36289 /* AppDelegate.h */,
+				CC159A211C204F6300D36289 /* AppDelegate.m */,
+				CC159A231C204F6300D36289 /* ViewController.h */,
+				CC159A241C204F6300D36289 /* ViewController.m */,
+				CC159A261C204F6300D36289 /* Main.storyboard */,
+				CC159A291C204F6300D36289 /* Assets.xcassets */,
+				CC159A2B1C204F6300D36289 /* LaunchScreen.storyboard */,
+				CC159A2E1C204F6300D36289 /* Info.plist */,
+				CC159A1D1C204F6300D36289 /* Supporting Files */,
+			);
+			path = ergt;
+			sourceTree = "<group>";
+		};
+		CC159A1D1C204F6300D36289 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC159A1E1C204F6300D36289 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC159A361C204F6300D36289 /* ergtTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC159A371C204F6300D36289 /* ergtTests.m */,
+				CC159A391C204F6300D36289 /* Info.plist */,
+			);
+			path = ergtTests;
+			sourceTree = "<group>";
+		};
+		CC159A411C204F6300D36289 /* ergtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC159A421C204F6300D36289 /* ergtUITests.m */,
+				CC159A441C204F6300D36289 /* Info.plist */,
+			);
+			path = ergtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC159A191C204F6300D36289 /* ergt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159A471C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergt" */;
+			buildPhases = (
+				CC159A161C204F6300D36289 /* Sources */,
+				CC159A171C204F6300D36289 /* Frameworks */,
+				CC159A181C204F6300D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ergt;
+			productName = ergt;
+			productReference = CC159A1A1C204F6300D36289 /* ergt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC159A321C204F6300D36289 /* ergtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159A4A1C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergtTests" */;
+			buildPhases = (
+				CC159A2F1C204F6300D36289 /* Sources */,
+				CC159A301C204F6300D36289 /* Frameworks */,
+				CC159A311C204F6300D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC159A351C204F6300D36289 /* PBXTargetDependency */,
+			);
+			name = ergtTests;
+			productName = ergtTests;
+			productReference = CC159A331C204F6300D36289 /* ergtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC159A3D1C204F6300D36289 /* ergtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159A4D1C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergtUITests" */;
+			buildPhases = (
+				CC159A3A1C204F6300D36289 /* Sources */,
+				CC159A3B1C204F6300D36289 /* Frameworks */,
+				CC159A3C1C204F6300D36289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC159A401C204F6300D36289 /* PBXTargetDependency */,
+			);
+			name = ergtUITests;
+			productName = ergtUITests;
+			productReference = CC159A3E1C204F6300D36289 /* ergtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC159A121C204F6300D36289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC159A191C204F6300D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CC159A321C204F6300D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC159A191C204F6300D36289;
+					};
+					CC159A3D1C204F6300D36289 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC159A191C204F6300D36289;
+					};
+				};
+			};
+			buildConfigurationList = CC159A151C204F6300D36289 /* Build configuration list for PBXProject "ergt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC159A111C204F6300D36289;
+			productRefGroup = CC159A1B1C204F6300D36289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC159A191C204F6300D36289 /* ergt */,
+				CC159A321C204F6300D36289 /* ergtTests */,
+				CC159A3D1C204F6300D36289 /* ergtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC159A181C204F6300D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159A2D1C204F6300D36289 /* LaunchScreen.storyboard in Resources */,
+				CC159A2A1C204F6300D36289 /* Assets.xcassets in Resources */,
+				CC159A281C204F6300D36289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A311C204F6300D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A3C1C204F6300D36289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC159A161C204F6300D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159A251C204F6300D36289 /* ViewController.m in Sources */,
+				CC159A221C204F6300D36289 /* AppDelegate.m in Sources */,
+				CC159A1F1C204F6300D36289 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A2F1C204F6300D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159A381C204F6300D36289 /* ergtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159A3A1C204F6300D36289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159A431C204F6300D36289 /* ergtUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC159A351C204F6300D36289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC159A191C204F6300D36289 /* ergt */;
+			targetProxy = CC159A341C204F6300D36289 /* PBXContainerItemProxy */;
+		};
+		CC159A401C204F6300D36289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC159A191C204F6300D36289 /* ergt */;
+			targetProxy = CC159A3F1C204F6300D36289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC159A261C204F6300D36289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC159A271C204F6300D36289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC159A2B1C204F6300D36289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC159A2C1C204F6300D36289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC159A451C204F6300D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC159A461C204F6300D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC159A481C204F6300D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ergt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC159A491C204F6300D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ergt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC159A4B1C204F6300D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ergtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ergt.app/ergt";
+			};
+			name = Debug;
+		};
+		CC159A4C1C204F6300D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ergtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ergt.app/ergt";
+			};
+			name = Release;
+		};
+		CC159A4E1C204F6300D36289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ergtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ergt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC159A4F1C204F6300D36289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ergtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.ergtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ergt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC159A151C204F6300D36289 /* Build configuration list for PBXProject "ergt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159A451C204F6300D36289 /* Debug */,
+				CC159A461C204F6300D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC159A471C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159A481C204F6300D36289 /* Debug */,
+				CC159A491C204F6300D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC159A4A1C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159A4B1C204F6300D36289 /* Debug */,
+				CC159A4C1C204F6300D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC159A4D1C204F6300D36289 /* Build configuration list for PBXNativeTarget "ergtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159A4E1C204F6300D36289 /* Debug */,
+				CC159A4F1C204F6300D36289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC159A121C204F6300D36289 /* Project object */;
+}

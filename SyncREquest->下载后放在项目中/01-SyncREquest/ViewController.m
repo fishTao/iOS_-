@@ -7,7 +7,7 @@
 //
 
 
-#define kSongURLStr   @"http://pic15.nipic.com/20110619/1901904_140154707195_2.jpg"
+#define kSongURLStr   @"http://imgsrc.baidu.com/baike/pic/item/b812c8fcc3cec3fd6724bf03d588d43f879427a9.jpg"
 #import "ViewController.h"
 
 @interface ViewController ()<NSURLConnectionDataDelegate>
@@ -19,6 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+   
+   
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)xiazai:(UIButton *)sender {
@@ -30,6 +34,12 @@
 
     // 3 .Connection（链接到服务器）
     NSURLConnection *connection = [NSURLConnection connectionWithRequest:request delegate:self];
+    UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 375, 667) ];
+    image.image = [UIImage imageNamed:@"/Users/qingyun/Desktop/WTT/Code/1215/（练习02）-SyncREquest/image.jpg"];
+     [self.view addSubview:image];
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(50, 40, 300, 25)];
+    [lable setText:@"徐璐"];
+    [image addSubview:lable];
 }
 #pragma mark  --NSURLConnectionData  Delegate
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
@@ -48,7 +58,7 @@
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection{
     //将数据保存到文件
-    [_songData writeToFile:@"/Users/qingyun/Desktop/image.jpg" atomically:YES];
+    [_songData writeToFile:@"/Users/qingyun/Desktop/WTT/Code/1215/（练习02）-SyncREquest/image.jpg" atomically:YES];
 }
 
 

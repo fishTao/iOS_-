@@ -37,8 +37,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="跑步.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aFZ-JF-oLc">
-                                <rect key="frame" x="0.0" y="218" width="375" height="405"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aFZ-JF-oLc">
+                                <rect key="frame" x="0.0" y="218" width="375" height="449"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="0.65500950168918914" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -679,9 +679,9 @@
         <image name="动画.png" width="697" height="710"/>
         <image name="咨询.png" width="266" height="268"/>
         <image name="肌肉图.png" width="361" height="507"/>
+        <image name="背景1.png" width="484" height="784"/>
         <image name="计划.png" width="264" height="270"/>
         <image name="记录.png" width="263" height="265"/>
-        <image name="跑步.jpg" width="4796" height="3634"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fSn-MZ-hrF"/>

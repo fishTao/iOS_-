@@ -88,7 +88,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="微健身" id="dbg-3a-gsa"/>
+                    <navigationItem key="navigationItem" title="微健身" id="dbg-3a-gsa">
+                        <barButtonItem key="rightBarButtonItem" image="MoreSetting.png" id="rwD-NO-fUx">
+                            <connections>
+                                <action selector="set:" destination="vXZ-lx-hvc" id="VJB-lv-Xcs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -113,7 +119,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aQo-Hr-28n" userLabel="a_1.jpg">
-                                <rect key="frame" x="0.0" y="35" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="682"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fA-f1-cKq">
@@ -122,7 +128,7 @@
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="highlighted" backgroundImage="功能.png"/>
                                 <connections>
-                                    <segue destination="C1u-Cc-y9M" kind="show" id="CPp-kw-LPc"/>
+                                    <segue destination="CD9-p9-NrA" kind="show" id="KVC-UJ-BRl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g39-YA-bQ7">
@@ -131,7 +137,7 @@
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="highlighted" backgroundImage="功能.png"/>
                                 <connections>
-                                    <segue destination="C1u-Cc-y9M" kind="show" id="5Ce-Ql-57O"/>
+                                    <segue destination="CD9-p9-NrA" kind="show" id="fGu-sc-b2W"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PI1-TV-bHU">
@@ -140,7 +146,7 @@
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="highlighted" backgroundImage="功能.png"/>
                                 <connections>
-                                    <segue destination="C1u-Cc-y9M" kind="show" id="eaI-4i-8Jc"/>
+                                    <segue destination="CD9-p9-NrA" kind="show" id="TsT-EA-5bU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-jg-2bl">
@@ -149,7 +155,7 @@
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="highlighted" backgroundImage="功能.png"/>
                                 <connections>
-                                    <segue destination="C1u-Cc-y9M" kind="show" id="UGf-bw-zBU"/>
+                                    <segue destination="CD9-p9-NrA" kind="show" id="0Dv-kJ-HaN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzq-Dv-O4u">
@@ -158,7 +164,7 @@
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="highlighted" backgroundImage="功能.png"/>
                                 <connections>
-                                    <segue destination="C1u-Cc-y9M" kind="show" id="OQg-Hg-S2c"/>
+                                    <segue destination="CD9-p9-NrA" kind="show" id="kDS-xa-LQ1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="秀身材" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yF-GK-WC2">
@@ -377,23 +383,6 @@
             </objects>
             <point key="canvasLocation" x="2411.5" y="2136.5"/>
         </scene>
-        <!--图片浏览-->
-        <scene sceneID="Lek-1K-2bA">
-            <objects>
-                <viewController id="C1u-Cc-y9M" customClass="meituViewController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="图片浏览" id="ThH-4i-K5j">
-                        <barButtonItem key="leftBarButtonItem" title="返回" id="bDy-SJ-oPf">
-                            <connections>
-                                <action selector="meitu:" destination="C1u-Cc-y9M" id="aLE-MT-gZ0"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="syz-h7-cK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1987.5" y="2923.5"/>
-        </scene>
         <!--Set View Controller-->
         <scene sceneID="jIi-Jg-eMk">
             <objects>
@@ -544,6 +533,26 @@
             </objects>
             <point key="canvasLocation" x="1542.5" y="2923.5"/>
         </scene>
+        <!--Meitu View Controller-->
+        <scene sceneID="sKC-h2-6ol">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="CD9-p9-NrA" customClass="meituViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lDL-Uj-Aol"/>
+                        <viewControllerLayoutGuide type="bottom" id="i8N-Zl-rja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p34-A4-Dy2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KLN-aX-XRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1987.5" y="2923.5"/>
+        </scene>
         <!--设置-->
         <scene sceneID="NWL-dg-HiI">
             <objects>
@@ -676,6 +685,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fSn-MZ-hrF"/>
-        <segue reference="eaI-4i-8Jc"/>
+        <segue reference="0Dv-kJ-HaN"/>
     </inferredMetricsTieBreakers>
 </document>

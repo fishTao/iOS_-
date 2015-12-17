@@ -8,7 +8,7 @@
 
 #import "meituViewController.h"
 
-@interface meituViewController ()
+@interface meituViewController ()<UIScrollViewDelegate>
 
 @end
 
@@ -17,12 +17,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    //创建一个ScrollView
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
+    [self.view addSubview:scrollView];
+    
+    //设置contentsize
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * 2, 667);
+    //分页
+    scrollView.pagingEnabled = YES;
+    //设置代理
+    scrollView.delegate = self;
+    
+    //设置背景
+    scrollView.backgroundColor = [UIColor blackColor];
+    
+    for (int i = 0;i < 2; i++ ) {
+        UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(375 * i,0, 375, 667 )];
+        [scrollView addSubview:scroll];
+        
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
+        [scroll addSubview:imageView];
+        
+        //设置scroll的图片
+        NSString *imageName = [NSString stringWithFormat:@"11_%d.jpg",i + 1];
+        imageView.image = [UIImage imageNamed:imageName];
+        
+    }
+
+    
 }
 
-- (IBAction)meitu:(UIBarButtonItem *)sender {
-    [self dismissViewControllerAnimated:YES completion:^{
-    }];
-}
+
 
 
 - (void)didReceiveMemoryWarning {

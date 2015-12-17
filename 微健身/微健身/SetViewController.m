@@ -2,7 +2,7 @@
 //  SetViewController.m
 //  
 //
-//  Created by qingyun on 15/12/9.
+//  Created by qingyun on 15/12/9/Users/qingyun/Desktop/WTT/Code/我的项目/健身宝典/微健身/微健身/SetViewController.m.
 //
 //
 
